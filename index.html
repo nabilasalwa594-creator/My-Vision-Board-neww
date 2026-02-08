@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vision Board 2026</title>
+
+<style>
+body{
+    font-family:"Segoe UI",sans-serif;
+    background:linear-gradient(120deg,#fdfbfb,#ebedee);
+    padding:30px;
+    color:#2f3e46;
+}
+h1,h2{text-align:center;color:#3a5a40;}
+.container{max-width:1200px;margin:auto;}
+
+.board{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:24px;
+    margin-bottom:50px;
+}
+
+.card,.calendar,.day-panel{
+    background:#ffffffcc;
+    backdrop-filter:blur(6px);
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h3{color:#588157;margin-bottom:12px;}
+label{display:block;margin-bottom:8px;font-size:.95rem;cursor:pointer;}
+input[type="checkbox"]{margin-right:8px;accent-color:#a3b18a;}
+
+textarea{
+    width:100%;
+    margin-top:10px;
+    border-radius:12px;
+    border:1px solid #d8e2dc;
+    padding:10px;
+    font-family:inherit;
+    font-size:.9rem;
+    resize:vertical;
+    min-height:80px;
+}
+
+/* Calendar */
+.calendar-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+.calendar-header button{
+    background:#a3b18a;
+    border:none;
+    color:white;
+    padding:6px 14px;
+    border-radius:8px;
+    cursor:pointer;
+}
+.calendar-grid{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:8px;
+}
+.day-name{text-align:center;font-size:.8rem;color:#6c757d;}
+.day{
+    background:#f8f9fa;
+    border-radius:10px;
+    min-height:60px;
+    padding:6px;
+    cursor:pointer;
+    font-size:.85rem;
+}
+.day.today{border:2px solid #a3b18a;}
+.day.has-data{background:#dde5b6;}
+
+/* Day Panel */
+.day-panel{
+    margin-top:25px;
+}
+.day-panel h3{color:#588157;margin-bottom:10px;}
+.day-panel input{
+    width:100%;
+    padding:8px;
+    border-radius:8px;
+    border:1px solid #d8e2dc;
+    margin-bottom:8px;
+}
+.day-panel ul{padding-left:18px;}
+.day-panel li{
+    font-size:.9rem;
+    margin-bottom:6px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌸 My Vision Board 2026</h1>
+
+<div class="container">
+
+<!-- ================= VISION BOARD ================= -->
+<div class="board">
+
+<div class="card">
+<h3>🎓 Academic Growth</h3>
+<label><input type="checkbox"> IP meningkat</label>
+<label><input type="checkbox"> Lebih aktif di kelas</label>
+<label><input type="checkbox"> Ikut seminar/workshop/lomba/volunteer</label>
+<label><input type="checkbox"> Mulai bangun CV</label>
+<label><input type="checkbox"> Apply beasiswa</label>
+<textarea placeholder="Catatan akademik..."></textarea>
+</div>
+
+<div class="card">
+<h3>🛠️ Skill Development</h3>
+<label><input type="checkbox"> Public speaking</label>
+<label><input type="checkbox"> Time management</label>
+<label><input type="checkbox"> Problem solving</label>
+<label><input type="checkbox"> Basic digital skills (Word)</label>
+<textarea placeholder="Catatan skill..."></textarea>
+</div>
+
+<div class="card">
+<h3>🧠 Mental & Emotional</h3>
+<label><input type="checkbox"> Lebih kenal diri sendiri</label>
+<label><input type="checkbox"> Nggak overthinking hal kecil</label>
+<label><input type="checkbox"> Lebih tenang menghadapi masalah</label>
+<textarea placeholder="Catatan mental & emosi..."></textarea>
+</div>
+
+<div class="card">
+<h3>⏳ Self-Discipline & Habit</h3>
+<label><input type="checkbox"> Kurangi screen time</label>
+<label><input type="checkbox"> Daily routine</label>
+<textarea placeholder="Catatan kebiasaan..."></textarea>
+</div>
+
+<div class="card">
+<h3>💆 Physical & Self-Care</h3>
+<label><input type="checkbox"> Skincare, body care, hair care</label>
+<label><input type="checkbox"> Minum air cukup</label>
+<label><input type="checkbox"> Olahraga ringan</label>
+<label><input type="checkbox"> Menambah berat badan</label>
+<textarea placeholder="Catatan fisik & self-care..."></textarea>
+</div>
+
+<div class="card">
+<h3>🤝 Social & Relationship Growth</h3>
+<label><input type="checkbox"> Bangun relasi sehat</label>
+<label><input type="checkbox"> Aktif di organisasi</label>
+<label><input type="checkbox"> Lebih open tapi punya batasan</label>
+<textarea placeholder="Catatan sosial..."></textarea>
+</div>
+
+<div class="card">
+<h3>💰 Financial Awareness</h3>
+<label><input type="checkbox"> Nabung rutin</label>
+<label><input type="checkbox"> Catat pemasukan & pengeluaran</label>
+<label><input type="checkbox"> Bedain needs & wants</label>
+<label><input type="checkbox"> Target tabungan kecil</label>
+<textarea placeholder="Catatan keuangan..."></textarea>
+</div>
+
+<div class="card">
+<h3>🕊️ Spiritual</h3>
+<label><input type="checkbox"> Puasa sunnah</label>
+<label><input type="checkbox"> Qabliyah Subuh</label>
+<label><input type="checkbox"> Al-Ma’tsurat</label>
+<label><input type="checkbox"> Mengaji</label>
+<textarea placeholder="Catatan spiritual..."></textarea>
+</div>
+
+<div class="card">
+<h3>🎨 Hobbies & Creativity</h3>
+<label><input type="checkbox"> Mengembangkan hobi lama</label>
+<label><input type="checkbox"> Hobi baru: memasak</label>
+<label><input type="checkbox"> Membuat sesuatu</label>
+<textarea placeholder="Catatan hobi & kreativitas..."></textarea>
+</div>
+
+</div>
+
+<!-- ================= CALENDAR ================= -->
+<h2>🗓️ Personal Calendar</h2>
+
+<div class="calendar">
+<div class="calendar-header">
+<button id="prev">‹</button>
+<h3 id="monthYear"></h3>
+<button id="next">›</button>
+</div>
+<div class="calendar-grid" id="calendar"></div>
+</div>
+
+<div class="day-panel" id="dayPanel" style="display:none;">
+<h3 id="selectedDate"></h3>
+
+<input id="listInput" placeholder="Tambah list (Enter)">
+<ul id="list"></ul>
+
+<textarea id="dayNote" placeholder="Catatan harian..."></textarea>
+</div>
+
+</div>
+
+<script>
+// ===== SAVE CHECKLIST & NOTES =====
+document.querySelectorAll("input[type=checkbox]").forEach((c,i)=>{
+    if(localStorage.getItem("c"+i)==="true")c.checked=true;
+    c.onchange=()=>localStorage.setItem("c"+i,c.checked);
+});
+document.querySelectorAll(".card textarea").forEach((t,i)=>{
+    t.value=localStorage.getItem("n"+i)||"";
+    t.oninput=()=>localStorage.setItem("n"+i,t.value);
+});
+
+// ===== CALENDAR + DAY NOTES =====
+const cal=document.getElementById("calendar");
+const monthYear=document.getElementById("monthYear");
+const panel=document.getElementById("dayPanel");
+const list=document.getElementById("list");
+const listInput=document.getElementById("listInput");
+const dayNote=document.getElementById("dayNote");
+const selectedDate=document.getElementById("selectedDate");
+let date=new Date(), activeKey="";
+
+function renderCalendar(){
+cal.innerHTML="";
+monthYear.textContent=date.toLocaleString("default",{month:"long",year:"numeric"});
+["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].forEach(d=>{
+    const e=document.createElement("div");
+    e.className="day-name";e.textContent=d;cal.appendChild(e);
+});
+const y=date.getFullYear(), m=date.getMonth();
+const first=new Date(y,m,1).getDay();
+const last=new Date(y,m+1,0).getDate();
+for(let i=0;i<first;i++)cal.appendChild(document.createElement("div"));
+
+for(let d=1;d<=last;d++){
+    const el=document.createElement("div");
+    el.className="day"; el.textContent=d;
+    const key=`${y}-${m}-${d}`;
+    if(localStorage.getItem(key))el.classList.add("has-data");
+    el.onclick=()=>openDay(key,`${d} ${monthYear.textContent}`);
+    cal.appendChild(el);
+}
+}
+
+function openDay(key,label){
+activeKey=key;
+panel.style.display="block";
+selectedDate.textContent=label;
+list.innerHTML="";
+(JSON.parse(localStorage.getItem(key+"list"))||[]).forEach(i=>{
+    const li=document.createElement("li"); li.textContent=i; list.appendChild(li);
+});
+dayNote.value=localStorage.getItem(key+"note")||"";
+}
+
+listInput.onkeypress=e=>{
+if(e.key==="Enter"&&listInput.value){
+const items=JSON.parse(localStorage.getItem(activeKey+"list"))||[];
+items.push(listInput.value);
+localStorage.setItem(activeKey+"list",JSON.stringify(items));
+listInput.value="";
+openDay(activeKey,selectedDate.textContent);
+renderCalendar();
+}};
+dayNote.oninput=()=>{
+localStorage.setItem(activeKey+"note",dayNote.value);
+renderCalendar();
+};
+
+document.getElementById("prev").onclick=()=>{date.setMonth(date.getMonth()-1);renderCalendar();}
+document.getElementById("next").onclick=()=>{date.setMonth(date.getMonth()+1);renderCalendar();}
+renderCalendar();
+</script>
+
+</body>
+</html>
